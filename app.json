@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.cristianwdev.typeormexporeactnative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "80653ed5-dc0e-488d-bf5c-4568f9fcf19d"
+      }
+    },
+    "owner": "cristianwdev"
+  },
+  "packagerOpts": {
+    "config": "metro.config.js"
   }
 }
